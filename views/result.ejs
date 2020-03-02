@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Restaurants show</title>
+  </head>
+  <body>
+    <h1>Restaurant List</h1>
+
+<table>
+<thead>
+<td>Nom</td>
+<td>Adreça</td>
+<td>Codi Postal</td>
+<td>Ciutat</td>
+<td>Telèfon</td>
+</thead>
+
+<% restaurant.forEach( function (restaurant) { %>
+<tr>
+<td><%= restaurant.name %></td>
+<td><%= restaurant.address %></td>
+<td><%= restaurant.zipCode %></td>
+<td><%= restaurant.city %></td>
+<td><%= restaurant.phone %></td>
+</tr>
+<% }) %>
+
+</table>
+  </body>
+</html>

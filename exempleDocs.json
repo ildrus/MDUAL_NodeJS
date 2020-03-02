@@ -1,0 +1,47 @@
+{
+	"_id": "1",
+	"name": "Diego",
+	"address": "C/Fabra i puig",
+	"zipCode": "08027",
+	"city": "Barcelona",
+	"phone": 933114351,
+	"timetable": [{
+			"dow": 1,
+			"openTime": "12:30",
+			"closeTime": "00:30"
+		}, {
+			"dow": 2,
+			"openTime": "12:30",
+			"closeTime": "02:30"
+		}
+
+	],
+	"categories": ["japones", "Chines"],
+	"products": [{
+			"name": "Shushi salmon",
+			"description": {
+				"es": "Salmon fresco traido del mar del norte",
+				"cat": "Salmo fresc portat del mar del nort"
+			},
+			"category": ["acompañany", "primer plat"],
+			"price": 4.20,
+			"extra": "null",
+			"alergen": ["peix"],
+			"picture": "c:/pictures/shushi.png",
+			"stock": 60
+		},
+		{
+			"name": "yakisoba",
+			"description": {
+				"es": "Fideos instantaneos con salsa de soja",
+				"cat": "Fideos instantanis amb salsa de soja"
+			},
+			"category": ["primer plat", "acompanyant"],
+			"price": 5.20,
+			"extra": ["ou", "extra soja"],
+			"alergen": ["cap"],
+			"picture": "C/pictures/yakisoba.png",
+			"stock": 30
+		}
+	]
+}
